@@ -17,13 +17,31 @@ Follow these steps to set up the project locally:
     ```bash
     cd plutomen-demo
     ```
-3. Set up environment variables:
-    Create a `.env` file in the root directory and add the required environment variables. Refer to `.env.example` for guidance.
 
-4. Install dependencies from `requirements.txt`:
+3. Create a virtual environment (optional but recommended):
+    ```bash
+    python -m venv venv
+    ```
+    Activate the virtual environment:
+    - On Windows:
+        ```bash
+        venv\Scripts\activate
+        ```
+    - On macOS/Linux:
+        ```bash
+        source venv/bin/activate
+        ```
+4. Install the required packages:
     ```bash
     pip install -r requirements.txt
     ```
+5. Set up environment variables:
+    Create a `.env` file in the root directory and add the required environment variables. Refer to `.env.example` for guidance.
+6. Run the application:
+    ```bash
+    python main.py
+    ```
+
 
 
 ## License
